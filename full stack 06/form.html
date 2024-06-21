@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+        <legend>Enter your personal details</legend>    
+        <label for="fname">Full Name</label>
+        <input type="text" name="fname"><br><br>
+
+        <label for="fname">Password</label>
+        <input type="text" name="password"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label>Hobbies</label>
+        <input type="checkbox" name="hobby" id="music">
+        <label for="music">Music</label>
+        <input type="checkbox" name="hobby" id="painting">
+        <label for="painting">Painting</label>
+        <input type="checkbox" name="hobby" id="travelling">
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" name="hobby" id="cooking">
+        <label for="cooking">Cooking</label>
+        <br><br>
+        
+        <label>Message</label>
+        <textarea name="Message" id="mes" cols="30" rows="8"></textarea>
+        <br><br>
+
+        <label>Country</label>
+        <select name="country" id="con" size="2" multiple>
+            <option value="In">India</option>
+            <option value="Ja" selected>Japan</option>
+            <option value="Ne">Nepal</option>
+            <option value="Bh">Bhutan</option>
+        </select>
+        <br><br>
+
+        <select name="car" id="car">
+            <optgroup label="Toyota"></optgroup>
+            <option>Etios</option>
+            <option>Fortuner</option>
+            <optgroup>
+                <option>Kwid</option> 
+                <option>Duster</option>
+                <option>Captur<option>
+            </optgroup>
+            </select>
+            <br><br>
+
+            <label>Cars</label>
+            <input list="car">
+            <datalist id="car">
+                <option value="Innova"></option>
+                <option value="Swift"></option>
+                <option value="Duster"></option>
+                <option value="Etios"></option>
+            </datalist>
+            <br><br>
+
+            <label >Upload File</label>
+            <input type="file" accept="image/*">
+            <br><br>
+            <input type="submit" value="Save">
+            <input type="reset">
+            <br><br>
+            <input type="image" src="../full stack 03/scene.avif" alt="submit" width="200px" height="200px">
+            </fieldset>
+        </form>
+    </body>
+</html>
