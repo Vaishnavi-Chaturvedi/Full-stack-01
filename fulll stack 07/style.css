@@ -1,0 +1,12 @@
+h1{
+    color: darkorchid;
+}
+.edit{
+    color: chartreuse; text-align: center;
+}
+p{
+    color: pink;
+}
+#editing{
+    color: aquamarine; border-width:2px; border-style: dotted;border-color: goldenrod;
+}
