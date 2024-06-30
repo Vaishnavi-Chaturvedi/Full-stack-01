@@ -1,0 +1,13 @@
+.abc{
+    border: 2px solid purple;
+    margin-bottom: 4px;
+}
+.def{
+    border: 2px solid purple;
+    margin-left: 4px;
+}
+#ghi{
+    border: 4px solid orange;
+    padding: 20px;
+    margin: 40px;
+}
