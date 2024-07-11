@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #box{
+            border: 2px solid teal;
+            width: 150px;
+            height: 150px;
+            background: rgb(252, 114, 114);
+            transition-property: width, height;
+            transition-duration: 3s, 5s;
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        #box:hover{
+            background-color: coral;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Transition</h1>
+    <div id="box"></div>
+</body>
+</html>
